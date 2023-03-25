@@ -25,6 +25,11 @@
             border-radius: 4px;
             margin-bottom: 20px;
         }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
         .description {
             font-size: 18px;
             line-height: 1.6;
@@ -32,7 +37,9 @@
             margin-bottom: 20px;
         }
         .divider {
-            border-bottom: 1px solid #e0e0e0;
+            width: 100%;
+            height: 1px;
+            background-color: #ccc;
             margin-bottom: 20px;
         }
         .qr-code {
@@ -50,6 +57,9 @@
             .note {
                 padding: 15px;
             }
+            .title {
+                font-size: 22px;
+            }
             .description {
                 font-size: 16px;
             }
@@ -63,11 +73,13 @@
 <body>
     <div class="container">
         <div class="note">
+            <div class="title">
+                <!-- 在这里插入您的中文标题 -->
+		一问：敏感数据是什么？
+            </div>
             <div class="description">
                 <!-- 在这里插入您的中文描述 -->
-               	一问：敏感数据是什么？
-
-敏感数据是指包含个人隐私、商业机密、政府机密等敏感信息的数据。在企业中，敏感数据可能包括客户的个人信息、财务数据、商业机密等。如果这些数据泄露，将会对企业造成无法挽回的损失，甚至可能导致企业破产。 
+		敏感数据是指包含个人隐私、商业机密、政府机密等敏感信息的数据。在企业中，敏感数据可能包括客户的个人信息、财务数据、商业机密等。如果这些数据泄露，将会对企业造成无法挽回的损失，甚至可能导致企业破产。 
             </div>
             <div class="divider"></div>
             <div class="qr-code">
@@ -79,5 +91,4 @@
     </div>
 </body>
 </html>
-``
 
