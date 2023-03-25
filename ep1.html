@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我有十问之敏感数据保护</title>
+    <title>中文描述和二维码</title>
     <style>
         body {
             font-family: "Arial", sans-serif;
@@ -25,12 +25,17 @@
             border-radius: 4px;
             margin-bottom: 20px;
         }
-        .title {
+        .article-title {
             font-size: 24px;
             font-weight: bold;
             margin-bottom: 20px;
         }
-        .description {
+        .description-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .description-content {
             font-size: 18px;
             line-height: 1.6;
             text-align: justify;
@@ -57,15 +62,12 @@
             .note {
                 padding: 15px;
             }
-            .title {
-                font-size: 22px;
-            }
-            .description {
+            .description-content {
                 font-size: 16px;
             }
             .qr-code img {
-                width: 100px;
-                height: 100px;
+                width: 120px;
+                height: 120px;
             }
         }
     </style>
@@ -73,12 +75,15 @@
 <body>
     <div class="container">
         <div class="note">
-            <div class="title">
-                <!-- 在这里插入您的中文标题 -->
+            <div class="article-title">
+                <!-- 在这里插入您的文章标题 -->
+                我有十问之 GDPR 
+            </div>
+            <div class="description-title">
+                <!-- 在这里插入您的描述标题 -->
 		一问：敏感数据是什么？
             </div>
-            <div class="description">
-                <!-- 在这里插入您的中文描述 -->
+            <div class="description-content">
 		敏感数据是指包含个人隐私、商业机密、政府机密等敏感信息的数据。在企业中，敏感数据可能包括客户的个人信息、财务数据、商业机密等。如果这些数据泄露，将会对企业造成无法挽回的损失，甚至可能导致企业破产。 
             </div>
             <div class="divider"></div>
@@ -91,4 +96,3 @@
     </div>
 </body>
 </html>
-
