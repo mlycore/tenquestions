@@ -5,39 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EP2：GDPR 十问</title>
     <style>
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
         .container {
             width: 100%;
             max-width: 800px;
             margin: 0 auto;
-            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .note {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+            margin-bottom: 20px;
         }
         .description {
             font-size: 18px;
             line-height: 1.6;
             text-align: justify;
+            margin-bottom: 20px;
         }
         .qr-code {
-            margin: 20px 0;
+            display: inline-block;
+            margin-bottom: 10px;
         }
         .small-text {
             font-size: 12px;
             color: #999;
         }
+        @media screen and (max-width: 767px) {
+            .container {
+                padding: 15px;
+            }
+            .note {
+                padding: 15px;
+            }
+            .description {
+                font-size: 16px;
+            }
+            .qr-code img {
+                width: 120px;
+                height: 120px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="description">
-            <!-- 在这里插入您的中文描述 -->
-            请在此处插入中文描述。
-	    一问：GDPR 和 PII 的关系是什么？
-	    GDPR 是法规，PII 是个人敏感数据
+        <div class="note">
+            <div class="description">
+                <!-- 在这里插入您的中文描述 -->
+               	GDPR 和 PII 的区别是什么 
+            </div>
+            <div class="qr-code">
+                <!-- 在这里插入您的二维码图片，使用img标签，src属性指向二维码图片的URL -->
+                <img src="http://rs2kit578.hn-bkt.clouddn.com/https___sourl.cn_RYGerf.png" alt="二维码" width="150" height="150">
+            </div>
+            <div class="small-text">扫码阅读原文</div>
         </div>
-        <div class="qr-code">
-            <!-- 在这里插入您的二维码图片，使用img标签，src属性指向二维码图片的URL -->
-            <img src="https___sourl.cn_RYGerf.png" alt="二维码" width="150" height="150">
-        </div>
-        <div class="small-text">扫码阅读原文</div>
     </div>
 </body>
 </html>
